@@ -120,7 +120,7 @@
         </div>
 
         <divclass="container-fluid text-center bg-grey">
-                <h3>Gallery</h3>
+            <h3>Gallery</h3>
             <div class="row no-gutter popup-gallery" id="photos">
                 <div class="row text-center">
                     <div class="col-sm-4">
@@ -145,7 +145,7 @@
                     </div>
                 </div>
             </div>
-
+            <!--CONTACT-->
             <div class="container-fluid bg-grey">
                 <h2 class="text-center"> Contact | <small>We'd love to hear from you.</small></h2>
                 <div class="row" id="form">
@@ -175,6 +175,31 @@
                     </div>
                 </div>
             </div>
+            <script src="https://maps.googleapis.com/maps/api/js">
+            </script>
+            <!--google map-->
+            <script>
+                function initialize() {
+                    var mapProp = {
+                        center: new google.maps.LatLng(39.656342, -104.763762),
+                        zoom: 5,
+                        scrollwheel: false,
+                        draggable: false,
+                        mapTypeId: google.maps.MapTypeId.ROADMAP
+                    };
+                    var map = new google.maps.Map(document.getElementById("googleMap"), mapProp);
+                    var marker = new google.maps.Marker({
+                        position: myCenter,
+                    });
+
+                    marker.setMap(map);
+                };
+
+
+
+                google.maps.event.addDomListener(window, 'load', initialize);
+            </script>
+            <div id="googleMap" style="min-width:80%;height:500px;"></div>
 
             >>>>>>> 2fa5df21b00db54c63e43cfb65ea0fa193ce7ee8
 
