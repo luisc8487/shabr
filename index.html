@@ -16,26 +16,6 @@
 
     <link rel="stylesheet" type="text/css" href="custom.css">
     <script type="text/javascript" src="script.js"></script>
-    <!--<style>-->
-    <!--    .navbar-default {-->
-    <!--        margin: 0px;-->
-    <!--    }-->
-
-    <!--    .header {-->
-    <!--        background-image: url("img/balloon-1.jpg");-->
-    <!--        background-size: cover;-->
-    <!--    }-->
-
-    <!--    h1 {-->
-    <!--        margin: 0px;-->
-    <!--    }-->
-
-    <!--    hr {-->
-    <!--        border-width: 3px;-->
-    <!--        max-width: 50px;-->
-    <!--        margin-top: 20px;-->
-    <!--    }-->
-    <!--</style>-->
 </head>
 
 <!--768sm-->
@@ -87,13 +67,15 @@
             </div>
         </div>
     </div>
-    <div class="container-fluid" id="fun">
-        <div class="row">
-            <div class="col-sm-4 col-sm-offset-4">
-                <!--768-->
-                <h3 class="text-center">Home</h3>
-                <p>Fun for Everyone Come make a new memory with us. There's nothing else like it. Fun for both adults and kids. All are welcome! Afraid of heights? You won't be after you slow-dance with the sky.</p>
-            </div>
+    <div class="container-fluid" id="home">
+        <!--<div class="section">-->
+            <div class="row">
+                <div class="col-sm-4 col-sm-offset-4 small">
+                    <!--768-->
+                    <h3 class="text-center">Home</h3>
+                    <p>Fun for Everyone Come make a new memory with us. There's nothing else like it. Fun for both adults and kids. All are welcome! Afraid of heights? You won't be after you slow-dance with the sky.</p>
+                </div>
+            <!--</div>-->
         </div>
     </div>
     <div class="container-fluid" id="info">
@@ -118,90 +100,112 @@
                 <p>We encourage all of our guests, if they wish, to participate in both the inflation and deflation of the balloon. We have found it adds greatly to the fun of the entire ballooning experience.</p>
             </div>
         </div>
+    </div>
 
-        <divclass="container-fluid text-center bg-grey">
-            <h3>Gallery</h3>
-            <div class="row no-gutter popup-gallery" id="photos">
-                <div class="row text-center">
-                    <div class="col-sm-4">
-                        <img src="img/balloon-2.jpg" class="img-responsive">
+    <div class="container-fluid" id="gallery">
+        <h3>Gallery | Testimonials</h3>
+        <hr>
+        <div class="container-fluid gallery">
+            <div class="row text-center">
+                <div class="col-sm-4 tile">
+                    <div class="overlay">
+                        <p>"Thank you for a wonderful memory. I was smiling the entire time. We shall always cherish that morning!" -- Joan H.</p>
                     </div>
-                    <div class="col-sm-4">
-                        <img src="img/balloon-3.jpg" class="img-responsive">
+                    <img src="img/balloon-2.jpg" class="img-responsive">
+                </div>
+                <div class="col-sm-4 tile">
+                    <div class="overlay">
+                        <p>"I haven't come down to earth since our balloon ride. We are so pleased that we chose SHABR." -- Marsha N.</p>
                     </div>
-                    <div class="col-sm-4">
-                        <img src="img/balloon-4.jpg" class="img-responsive">
+                    <img src="img/balloon-3.jpg" class="img-responsive">
+                </div>
+                <div class="col-sm-4 tile">
+                    <div class="overlay">
+                        <p>"Thanks so much for making our experience so perfect. I definitely want to go back again!" -- Linda T.</p>
                     </div>
-                    <div class="row text-center">
-                        <div class="col-sm-4">
-                            <img src="img/balloon-5.jpg" class="img-responsive">
-                        </div>
-                        <div class="col-sm-4">
-                            <img src="img/balloon-6.jpg" class="img-responsive">
-                        </div>
-                        <div class="col-sm-4">
-                            <img src="img/balloon-1.jpg" class="img-responsive">
-                        </div>
+                    <img src="img/balloon-4.jpg" class="img-responsive">
+                </div>
+            </div>
+            <!--</div>-->
+            <div class="row text-center">
+                <div class="col-sm-4 tile">
+                    <div class="overlay">
+                        <p>"What an experience!! I can't stop talking about it with my family. Thank you for the life-long memory!" -- Tammy P.</p>
+                    </div>
+                    <img src="img/balloon-5.jpg" class="img-responsive">
+                </div>
+                <div class="col-sm-4 tile">
+                    <div class="overlay">
+                        <p>"Thank you so much for the experience. It was delightful - awesome - wonderful - I will never forget my 80th Birthday!" -- Ethel E.</p>
+                    </div>
+                    <img src="img/balloon-6.jpg" class="img-responsive">
+                </div>
+                <div class="col-sm-4 tile">
+                    <div class="overlay">
+                        <p>"What an awesome way to remember my anniversary! I know I will always remember this experience. Thank you again!" -- Mary C.</p>
+                    </div>
+                    <img src="img/balloon-1.jpg" class="img-responsive">
+                </div>
+            </div>
+        </div>
+        <!--</div>-->
+    </div>
+    <!--CONTACT-->
+    <div class="container-fluid bg-grey" id="contact">
+        <h2 class="text-center"> Contact | <small>We'd love to hear from you.</small></h2>
+        <div class="row" id="form">
+            <!--<div class="text-center vert-center">-->
+            <div class="col-sm-5" id="phone_address">
+                <!--<p>we'd love to hear from you.</p>-->
+                <p><span class="glyphicon glyphicon-map-marker"></span>1234 Shabr Road, Somewhere, OT 80013 </p>
+                <p><span class="glyphicon glyphicon-phone"></span> (555) 555 1234 </p>
+            </div>
+            <!--</div>-->
+
+            <div class="col-sm-7">
+                <div class="row">
+                    <div class="col-sm-6 form-group">
+                        <input class="form-control" id="name" name="name" placeholder="Name" type="text" required>
+                    </div>
+                    <div class="col-sm-6 form-group">
+                        <input class="form-control" id="email" name="email" placeholder="Email" type="email" required>
+                    </div>
+                </div>
+                <textarea class="form-control" id="comments" name="comments" placeholder="Comment" rows="5"></textarea><br>
+                <div class="row">
+                    <div class="col-sm-12 form-group">
+                        <button class="btn btn-default pull-right" type="submit">Send</button>
                     </div>
                 </div>
             </div>
-            <!--CONTACT-->
-            <div class="container-fluid bg-grey">
-                <h2 class="text-center"> Contact | <small>We'd love to hear from you.</small></h2>
-                <div class="row" id="form">
-                    <!--<div class="text-center vert-center">-->
-                    <div class="col-sm-5" id="phone_address">
-                        <!--<p>we'd love to hear from you.</p>-->
-                        <p><span class="glyphicon glyphicon-map-marker"></span>1234 Shabr Road, Somewhere, OT 80013 </p>
-                        <p><span class="glyphicon glyphicon-phone"></span> (555) 555 1234 </p>
-                    </div>
-                    <!--</div>-->
-
-                    <div class="col-sm-7">
-                        <div class="row">
-                            <div class="col-sm-6 form-group">
-                                <input class="form-control" id="name" name="name" placeholder="Name" type="text" required>
-                            </div>
-                            <div class="col-sm-6 form-group">
-                                <input class="form-control" id="email" name="email" placeholder="Email" type="email" required>
-                            </div>
-                        </div>
-                        <textarea class="form-control" id="comments" name="comments" placeholder="Comment" rows="5"></textarea><br>
-                        <div class="row">
-                            <div class="col-sm-12 form-group">
-                                <button class="btn btn-default pull-right" type="submit">Send</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <script src="https://maps.googleapis.com/maps/api/js">
-            </script>
-            <!--google map-->
-            <script>
-                function initialize() {
-                    var mapProp = {
-                        center: new google.maps.LatLng(39.656342, -104.763762),
-                        zoom: 5,
-                        scrollwheel: false,
-                        draggable: false,
-                        mapTypeId: google.maps.MapTypeId.ROADMAP
-                    };
-                    var map = new google.maps.Map(document.getElementById("googleMap"), mapProp);
-                    var marker = new google.maps.Marker({
-                        position: myCenter,
-                    });
-
-                    marker.setMap(map);
+        </div>
+        <script src="https://maps.googleapis.com/maps/api/js">
+        </script>
+        <!--google map-->
+        <script>
+            function initialize() {
+                var mapProp = {
+                    center: new google.maps.LatLng(39.656342, -104.763762),
+                    zoom: 5,
+                    scrollwheel: false,
+                    draggable: false,
+                    mapTypeId: google.maps.MapTypeId.ROADMAP
                 };
+                var map = new google.maps.Map(document.getElementById("googleMap"), mapProp);
+                var marker = new google.maps.Marker({
+                    position: myCenter,
+                });
+
+                marker.setMap(map);
+            };
 
 
 
-                google.maps.event.addDomListener(window, 'load', initialize);
-            </script>
-            <div id="googleMap" style="min-width:80%;height:500px;"></div>
+            google.maps.event.addDomListener(window, 'load', initialize);
+        </script>
+        <div id="googleMap" style="min-width:80%;height:500px;"></div>
 
-            >>>>>>> 2fa5df21b00db54c63e43cfb65ea0fa193ce7ee8
+        >>>>>>> 2fa5df21b00db54c63e43cfb65ea0fa193ce7ee8
 
 </body>
 
