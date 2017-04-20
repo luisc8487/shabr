@@ -66,10 +66,18 @@
         h1 {
             margin: 0px;
         }
+        #subtitle{
+            color:black;
+        }
+        #main{
+           border-color:rgb(64, 224, 208); 
+        }
         h3{
             text-align: center;
         }
-        
+        p{
+             color:grey;
+        }
         hr {
             border-width: 3px;
             max-width: 50px;
@@ -90,6 +98,18 @@
             p{
                 font-size: 14px;
             }
+            .col-sm-offset-4{
+                margin-left:33.33333%;
+            }
+             .small{
+                width:33.3333%;
+            }
+            info{
+                font-size: 40px;
+            }
+             hr{
+                max-width: 50px;
+            }
         }
         @media only screen and (min-width: 992px) {
             h1{
@@ -97,15 +117,26 @@
             }
             p{
                 font-size: 16px;
-            } 
-            .col-sm-offset-4{
-                margin-left:33.33333%;
             }
-            .small{
-                width:33.3333%;
+            info{
+                font-size: 42px;
+            }
+            hr{
+                max-width: 75px;
             }
         }
         @media only screen and (min-width: 992px) {
-            
+            h1{
+                font-size: 44px;
+            }
+            p{
+                font-size: 18px;
+            }
+            info{
+                font-size: 44px;
+            }
+             hr{
+                max-width: 10px;
+            }
         }
         
