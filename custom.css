@@ -16,18 +16,22 @@
              transform: translate(0%, 50%);
         }
         .title{
-            text-align:center; 
+            text-align: center;
         }
         span{
+            /*align-items:center;*/
+            color:rgb(64, 224, 208);
             font-size: 35px;
-        color:rgb(64,224,208);
-          text-align: center;
+        }
+        .info{
+            display: block;
+            text-align: center;
         }
         #home{
-            background-color: rgb(64,224,208)
+            background-color: rgb(64, 224, 208);
         }
         #gallery{
-            background-color: rgb(64,224,208)
+            background-color: rgb(64, 224, 208);
             /*padding:2%;*/
         }
         .container-fluid .gallery{
@@ -41,7 +45,7 @@
         .overlay{
             padding:0px;
             position: absolute;
-            background-color: rgba(64,224,208,0.69);
+            background-color: rgba(64, 224, 208,0.69);
             top:0px;
             bottom:0px;
             /*width:94%;*/
